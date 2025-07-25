@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | HackForage</title>
+  <link rel="stylesheet" href="about.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <nav data-aos="fade-down">
+    <div class="logo">Heads Of Highschools</div>
+    <ul>
+      <li><a href="main.html">Home</a></li>
+      <li><a href="about.html">About</a></li> 
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  <section>
+    <!-- Apply animation to heading -->
+    <h1 data-aos="zoom-in">ABOUT</h1>
+
+    <!-- Apply animation to about paragraph container -->
+    <div class="about-paragraph-box" data-aos="fade-up">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+    </div>
+
+    <!-- First profile card with scroll effect -->
+    <div class="profile-card" data-aos="fade-right">
+      <img src="owner1.png" alt="Owner Profile" />
+      <div class="profile-text">
+        <h2>Head of Highschools</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet libero eu purus interdum tincidunt.</p>
+      </div>
+    </div>
+
+    <!-- Second profile card with scroll effect -->
+    <div class="profile-card" data-aos="fade-left">
+      <img src="owner2.png" alt="Owner Profile" />
+      <div class="profile-text">
+        <h2>Co-Head of Schools</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet libero eu purus interdum tincidunt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true, // Ensures animation plays only once per element
+    });
+    
+    
+  </script>
+</body>
+</html>
